@@ -6,6 +6,9 @@ function countLetters(sentence) {
 
 	for (var i = 0; i < allLetters.length; i++) {
 
+
+//now we are calling an object (an array to be specific)
+
 		var currentLetter = allLetters[i];
 		objLetters[currentLetter] = [];
 
@@ -13,6 +16,8 @@ function countLetters(sentence) {
 	console.log[objLetters];
 
 	for (var j = 0; j < allLetters.length; j++) {
+
+//in order to add an element to an object, use .push
 
 		var currentLetter = allLetters[j];
 		objLetters[currentLetter].push(j);
